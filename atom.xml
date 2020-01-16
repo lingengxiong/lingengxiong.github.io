@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>呵呵到天亮</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-01-16T06:54:37.102Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>lingengxiong</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>lua</title>
+    <link href="http://yoursite.com/2020/01/09/lua%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/"/>
+    <id>http://yoursite.com/2020/01/09/lua%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</id>
+    <published>2020-01-09T13:51:43.000Z</published>
+    <updated>2020-01-16T06:54:37.102Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录使用lua过程中遇到的问题</p><a id="more"></a><h3 id="字符串操作"><a href="#字符串操作" class="headerlink" title="字符串操作"></a>字符串操作</h3><h4 id="截去字符串首尾空格"><a href="#截去字符串首尾空格" class="headerlink" title="截去字符串首尾空格"></a>截去字符串首尾空格</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">string.gsub(str, &quot;^%s*(.-)%s*$&quot;, &quot;%1&quot;)  --截掉前后空格</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;记录使用lua过程中遇到的问题&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
