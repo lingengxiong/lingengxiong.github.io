@@ -4,7 +4,14 @@
   <url>
     <loc>http://yoursite.com/2019/12/28/android%E7%AC%94%E8%AE%B0/</loc>
     
-    <lastmod>2020-01-15T02:07:42.765Z</lastmod>
+    <lastmod>2020-01-15T12:34:44.465Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/01/03/hexo%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2020-01-15T12:34:44.465Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>http://yoursite.com/2019/02/27/webpack%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2020-01-07T05:07:58.617Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/01/03/hexo%E7%AC%94%E8%AE%B0/</loc>
-    
-    <lastmod>2020-01-07T05:07:58.616Z</lastmod>
     
   </url>
   
