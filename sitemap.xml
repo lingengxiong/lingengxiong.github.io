@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2020/01/03/hexo%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2020-01-16T06:55:44.674Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2020/01/09/lua%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</loc>
     
     <lastmod>2020-01-16T06:54:37.102Z</lastmod>
