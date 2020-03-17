@@ -1,0 +1,157 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><link rel="stylesheet" type="text/css" href="//fonts.loli.net/css?family=Source+Code+Pro"><link rel="stylesheet" type="text/css" href="/css/style.css?v=2.0.4"><link rel="stylesheet" type="text/css" href="/css/highlight.css?v=2.0.4"><link rel="Shortcut Icon" href="/favicon.ico"><link rel="bookmark" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><link rel="stylesheet" type="text/css" href="https://unpkg.com/gitalk/dist/gitalk.css?v=2.0.4"><title>markdown数学公式 | 呵呵到天亮</title><meta name="generator" content="Hexo 4.2.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">markdown数学公式</h1><a id="logo" href="/.">呵呵到天亮</a><p class="description"></p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="搜索"></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h1 class="post-title">markdown数学公式</h1><div class="post-meta"><a href="/2020/03/17/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/#comments" class="comment-count"></a><p><span class="date">Mar 17, 2020</span><span><i id="busuanzi_container_page_pv"><i id="busuanzi_value_page_pv"></i><i>点击</i></i></span></p></div><div class="post-content"><p>行内插入数学公式：<code>$公式$</code></p>
+<p>插入公式块：<code>$$公式内容$$</code></p>
+<h3 id="1-上下标"><a href="#1-上下标" class="headerlink" title="1.上下标"></a>1.上下标</h3><p>分别用^和_，例如<code>x_i^2</code>就是$ x_i^2 $</p>
+<h3 id="2-常用运算符"><a href="#2-常用运算符" class="headerlink" title="2.常用运算符"></a>2.常用运算符</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>说明</th>
+<th>运算符案例</th>
+<th>实现</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+</td>
+<td>加</td>
+<td>x+y</td>
+<td><code>$x+y$</code></td>
+</tr>
+<tr>
+<td>-</td>
+<td>减</td>
+<td>x-y</td>
+<td><code>$x-y$</code></td>
+</tr>
+<tr>
+<td>\times</td>
+<td>乘</td>
+<td>$x \times y$</td>
+<td><code>$x \times y$</code></td>
+</tr>
+<tr>
+<td>\cdot</td>
+<td>点积</td>
+<td>$x \cdot y$</td>
+<td><code>$x \cdot y$</code></td>
+</tr>
+<tr>
+<td>\ast</td>
+<td>乘</td>
+<td>$x \ast y$</td>
+<td><code>$x \ast y $</code></td>
+</tr>
+<tr>
+<td>\div</td>
+<td>除</td>
+<td>$ x \div y$</td>
+<td><code>$ x\div y $</code></td>
+</tr>
+<tr>
+<td>\frac</td>
+<td>分数</td>
+<td>$\frac {x}{y} $</td>
+<td><code>\frac {x}{y}</code></td>
+</tr>
+<tr>
+<td>\ neq</td>
+<td>不等于</td>
+<td>$\neq$</td>
+<td><code>$\neq$</code></td>
+</tr>
+<tr>
+<td>\sqrt</td>
+<td>根号</td>
+<td>$\sqrt x$</td>
+<td><code>$\sqrt x$</code></td>
+</tr>
+<tr>
+<td>\sum</td>
+<td>累加</td>
+<td>$\sum_{k=1}^n$</td>
+<td><code>$\sum_{k=1}^n$</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="3-大括号"><a href="#3-大括号" class="headerlink" title="3.大括号"></a>3.大括号</h3><p>左括号：\left (，右括号：\right)，则<code>\left( \frac x2 \right)</code>表示$\left( \frac x2 \right)$</p>
+<h3 id="5-根号"><a href="#5-根号" class="headerlink" title="5. 根号"></a>5. 根号</h3><p><code>\sqrt{x}</code>用来表示$\sqrt{x}$</p>
+<h3 id="6-戴帽符号"><a href="#6-戴帽符号" class="headerlink" title="6. 戴帽符号"></a>6. 戴帽符号</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>符号</th>
+<th>写法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$\hat{x}$</td>
+<td>\hat{x}</td>
+</tr>
+<tr>
+<td>$\widehat{xyz}$</td>
+<td>\widehat{xyz}</td>
+</tr>
+<tr>
+<td>$\check{x}$</td>
+<td>\check{x}</td>
+</tr>
+<tr>
+<td>$\breve{y}$</td>
+<td>\breve{y}</td>
+</tr>
+<tr>
+<td>$\tilde{x}$</td>
+<td>\tilde{x}</td>
+</tr>
+<tr>
+<td>$\widetilde{xyz}$</td>
+<td>\widetilde{xyz}</td>
+</tr>
+<tr>
+<td>$\grave{x}$</td>
+<td>\grave{x}</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="7-矩阵"><a href="#7-矩阵" class="headerlink" title="7. 矩阵"></a>7. 矩阵</h3><p>(1) 普通矩阵</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line"> \begin&#123;matrix&#125;</span><br><span class="line">   a &amp; b &amp; c &amp; d &amp; e\\</span><br><span class="line">   f &amp; g &amp; h &amp; i &amp; j \\</span><br><span class="line">   k &amp; l &amp; m &amp; n &amp; o \\</span><br><span class="line">   p &amp; q &amp; r &amp; s &amp; t</span><br><span class="line">  \end&#123;matrix&#125; </span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<script type="math/tex; mode=display">
+\begin{matrix}
+   a & b & c & d & e\\
+   f & g & h & i & j \\
+   k & l & m & n & o \\
+   p & q & r & s & t
+  \end{matrix}</script><p>(2) 带中括号</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">\left[</span><br><span class="line"> \begin&#123;matrix&#125;</span><br><span class="line">   a &amp; b &amp; c &amp; d &amp; e\\</span><br><span class="line">   f &amp; g &amp; h &amp; i &amp; j \\</span><br><span class="line">   k &amp; l &amp; m &amp; n &amp; o \\</span><br><span class="line">   p &amp; q &amp; r &amp; s &amp; t</span><br><span class="line">  \end&#123;matrix&#125; </span><br><span class="line">\right]</span><br></pre></td></tr></table></figure>
+<script type="math/tex; mode=display">
+
+\left[
+ \begin{matrix}
+   a & b & c & d & e\\
+   f & g & h & i & j \\
+   k & l & m & n & o \\
+   p & q & r & s & t
+  \end{matrix} 
+\right]</script></div><div class="post-copyright"><blockquote><p>原文作者: lingengxiong</p><p>原文链接: <a href="http://yoursite.com/2020/03/17/markdown数学公式/">http://yoursite.com/2020/03/17/markdown数学公式/</a></p><p>版权声明: 转载请注明出处(必须保留原文作者署名原文链接)</p></blockquote></div><div class="tags"></div><div class="post-share"><div class="social-share"><span>分享到:</span></div></div><div class="post-nav"><a href="/2020/03/14/Unity%20Shader%E5%AD%A6%E4%B9%A03%E2%80%94%E2%80%94%E6%95%B0%E5%AD%A6/" class="next">Unity Shader学习3——数学</a></div><div id="comments"><div id="container"><script type="text/javascript" src="https://unpkg.com/gitalk/dist/gitalk.min.js?v=2.0.4"></script><script type="text/javascript" src="//cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js?v=2.0.4"></script><script>var gitalk = new Gitalk({
+  clientID: 'd5dd8867ef8d47352834',
+  clientSecret: 'bca9f103cf3548ecae6cd334284e91656753bae6',
+  repo: 'blogtalk',
+  owner: 'lingengxiong',
+  admin: ['lingengxiong'],
+  id: md5(window.location.pathname),
+  distractionFreeMode: false,
+  language: 'zh-CN',
+  pagerDirection: 'last'
+})
+gitalk.render('container')</script></div></div></div></div></div><div class="layout-r"><div id="sidebar"><div class="search-pla"></div><div id="toc" class="widget"><div class="widget-title"><i class="fa fa-fei">文章目录</i></div><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-上下标"><span class="toc-text">1.上下标</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-常用运算符"><span class="toc-text">2.常用运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-大括号"><span class="toc-text">3.大括号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-根号"><span class="toc-text">5. 根号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-戴帽符号"><span class="toc-text">6. 戴帽符号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-矩阵"><span class="toc-text">7. 矩阵</span></a></li></ol></div><div class="widget"><div class="widget-title"><i class="fa fa-xie"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2020/03/17/markdown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/">markdown数学公式</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/03/14/Unity%20Shader%E5%AD%A6%E4%B9%A03%E2%80%94%E2%80%94%E6%95%B0%E5%AD%A6/">Unity Shader学习3——数学</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/01/09/lua%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/">lua</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/01/03/npm/">npm</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/01/03/hexo%E7%AC%94%E8%AE%B0/">hexo笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/12/28/android%E7%AC%94%E8%AE%B0/">Android笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/02/27/webpack%E7%AC%94%E8%AE%B0/">webpack笔记</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-gui"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android/">Android</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/javaScripts/">javaScripts</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/javaScripts/%E5%89%8D%E7%AB%AF/">前端</a><span class="category-list-count">1</span></li></ul></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> 标签</i></div><div class="tagcloud"><a href="/tags/npm/" style="font-size: 15px;">npm</a> <a href="/tags/webpack/" style="font-size: 15px;">webpack</a> <a href="/tags/hexo/" style="font-size: 15px;">hexo</a> <a href="/tags/Android/" style="font-size: 15px;">Android</a> <a href="/tags/Shader/" style="font-size: 15px;">Shader</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-archive"> 归档</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/">2019</a><span class="archive-list-count">2</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-you"> 友情链接</i></div><ul></ul><a href="https://github.com/lingengxiong" title="github" target="_blank">github</a><ul></ul><a href="https://gitee.com/lingengxiong" title="码云" target="_blank">码云</a><ul></ul><a href="https://blog.csdn.net/lgx1134569285" title="csdn" target="_blank">csdn</a></div></div></div></div><a id="totop" href="#top"></a><div id="footer"><div class="footer-info"><p><a href="/baidusitemap.xml">网站地图</a> |  <a href="/atom.xml">订阅本站</a> |  <a href="/about/">联系博主</a></p><p>本站总访问量：<i id="busuanzi_container_site_pv"><i id="busuanzi_value_site_pv"></i></i>次，本站总访客数:<i id="busuanzi_container_site_uv"><i id="busuanzi_value_site_uv"></i></i>人</p><p><span> Copyright &copy;<a href="/." rel="nofollow">lingengxiong.</a></span><span> Theme by<a rel="nofollow" target="_blank" href="https://github.com/chaooo/hexo-theme-BlueLake"> BlueLake.</a></span><span> Count by<a href="http://busuanzi.ibruce.info/" target="_blank" rel="noopener"> busuanzi.</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span></p></div></div></div><script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script type="text/javascript" src="/js/search.json.js?v=2.0.4"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  }
+});</script><script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML" async></script><script type="text/javascript" src="/js/toctotop.js?v=2.0.4" async></script><link rel="stylesheet" type="text/css" href="/share/css/share.css"><script type="text/javascript" src="/share/js/social-share.js" charset="utf-8"></script><script type="text/javascript" src="/share/js/qrcode.js" charset="utf-8"></script></body></html>
